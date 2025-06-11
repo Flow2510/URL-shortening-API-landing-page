@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1.5rem 1rem 1.5rem;
+
+    &__nav{
+        display: none;
+    }
+
+    &__button-wrapper{
+        display: none;
+    }
+
+
+    &__hamburger{
+        
+
+
+        &-wrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 30px;
+        }
+
+        &-line{
+            width: 25px;
+            height: 3px;
+            background-color: rgb(143, 143, 143);
+        }
+    }
+}
