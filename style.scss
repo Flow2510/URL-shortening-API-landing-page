@@ -1,11 +1,30 @@
+// _variables.scss
+
+$cyan: hsl(180, 66%, 49%);
+$gray: hsl(0, 0%, 75%);
+$lightgray: hsl(257, 7%, 95%);
+$dark-violet: hsl(257, 27%, 26%);
+$verydarkviolet: hsl(260, 8%, 14%);
+$grayishviolet: hsl(257, 7%, 63%);
+
 *{
     margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 18px;
+    font-family: "poppins";
+}
+
+button{
+    cursor: pointer;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 2rem 1.5rem 1rem 1.5rem;
+    padding: 2rem 1.2rem 1rem 1.2rem;
 
     &__nav{
         display: none;
@@ -15,11 +34,8 @@
         display: none;
     }
 
-
     &__hamburger{
         
-
-
         &-wrapper{
             display: flex;
             flex-direction: column;
@@ -32,5 +48,202 @@
             height: 3px;
             background-color: rgb(143, 143, 143);
         }
+    }
+}
+
+.intro{
+    padding: 0 1.2rem;
+    text-align: center;
+    width: 100%;
+    overflow-x: hidden;
+
+    &__image{
+        width: 150%;
+    }
+
+    &__content-wrapper{
+        padding: 2rem 0 3rem 0;
+    }
+
+    &__content-title{
+        font-size: 2.3rem;
+        line-height: 2.5rem;
+        color: $verydarkviolet;
+    }
+
+    &__content-text{
+        padding: 1rem 0;
+        line-height: 1.6rem;
+        color: $grayishviolet;
+    }
+
+    &__content-button{
+        padding: 0.9rem 2.2rem;
+        border: none;
+        border-radius: 9999px;
+        background-color: $cyan;
+        color: white;
+        font-size: 1.1rem;
+        font-weight: 600;
+        letter-spacing: 0.8px;
+        margin: 1rem;
+    }
+}
+
+.shorten{
+    padding: 1.2rem;
+    background: linear-gradient(to bottom, white 50%, $lightgray 50% );
+
+    &__wrapper{
+        padding: 1.2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        background: $dark-violet url(images/bg-shorten-mobile.svg) no-repeat top right;
+        background-size: 70% 70%;
+        border-radius: 0.5rem;
+    }
+
+    &__input{
+        padding: 0.9rem 0.5rem;
+        font-size: 1rem;
+        border-radius: 0.5rem;
+        border: none;
+    }
+
+    &__button{
+        padding: 0.9rem;
+        font-size: 1.1rem;
+        border: none;
+        background-color: $cyan;
+        color: white;
+        font-weight: 600;
+        border-radius: 0.5rem;
+    }
+}
+
+.statistics{
+    padding: 2rem 1.2rem 4rem 1.2rem;
+    background-color: $lightgray;
+    text-align: center;
+
+    &__title{
+        color: $verydarkviolet;
+        padding: 2rem 0 1rem;
+        font-size: 1.6rem;
+    }
+
+    &__text{
+        color: $grayishviolet;
+        font-size: 0.9rem;
+    }
+
+    &__image-wrapper{
+        background-color: $dark-violet;
+        border-radius: 99999px;
+        width: 90px;
+        padding: 1rem;
+        margin: auto;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(45px);
+    }
+    
+    &__deco-cyan{
+        height: 50px;
+        width: 8px;
+        background-color: $cyan;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    &__content-article{
+        background: white;
+        padding: 4rem 1.5rem 2.5rem;
+        border-radius: 0.5rem;
+    }
+
+    &__content-title{
+        color: $verydarkviolet;
+        margin-bottom: 1rem;
+    }
+
+    &__content-text{
+        color: $grayishviolet;
+        font-size: 0.85rem;
+        line-height: 1.5rem;
+    }
+}
+
+.boost{
+    background: $dark-violet url(images/bg-boost-mobile.svg) no-repeat;
+    background-size: cover;
+    padding: 5rem 0;
+    text-align: center;
+
+    &__title{
+        color: white;
+    }
+
+    &__button{
+        padding: 0.9rem 2.2rem;
+        border: none;
+        border-radius: 9999px;
+        background-color: $cyan;
+        color: white;
+        font-size: 1.1rem;
+        font-weight: 600;
+        letter-spacing: 0.8px;
+        margin: 1rem;
+    }
+}
+
+.footer{
+    text-align: center;
+    background-color: $verydarkviolet;
+    color: white;
+    padding: 2rem;
+
+    &__image{
+        filter: brightness(100);
+        margin: 1rem;
+    }
+
+    &__nav{
+        font-size: 0.8rem;
+        margin: 1.5rem;
+    }
+
+    &__nav-text{
+        padding: 1rem;
+    }
+
+    &__ul{
+        padding-left: 0;
+
+        :nth-child(1){
+            padding:  0 0 1rem 0;
+        }
+    }
+
+    &__li{
+        list-style: none;
+        margin: 0.5rem 0;
+
+        &-link{
+            text-decoration: none;
+            color: $gray;
+        }
+    }
+
+    &__social-wrapper{
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+        justify-content: center;
+        padding: 1rem 0;
     }
 }
