@@ -1,0 +1,115 @@
+[
+  {
+    "type": "session",
+    "timestamp": "2025-06-12T17:09:10.985Z",
+    "data": {
+      "id": "1749748150985",
+      "project": "url-shortening-api-master",
+      "start": "2025-06-12T17:09:10.985Z",
+      "end": "2025-06-12T17:12:28.444Z"
+    }
+  },
+  {
+    "type": "session",
+    "timestamp": "2025-06-12T17:12:28.444Z",
+    "data": {
+      "id": "1749748150985",
+      "project": "url-shortening-api-master",
+      "start": "2025-06-12T17:09:10.985Z",
+      "end": "2025-06-12T17:12:28.444Z"
+    }
+  },
+  {
+    "type": "session",
+    "timestamp": "2025-06-12T17:15:06.442Z",
+    "data": {
+      "id": "1749748506442",
+      "project": "url-shortening-api-master",
+      "start": "2025-06-12T17:15:06.442Z",
+      "end": "2025-06-12T17:16:50.608Z"
+    }
+  },
+  {
+    "type": "session",
+    "timestamp": "2025-06-12T17:16:50.608Z",
+    "data": {
+      "id": "1749748506442",
+      "project": "url-shortening-api-master",
+      "start": "2025-06-12T17:15:06.442Z",
+      "end": "2025-06-12T17:16:50.608Z"
+    }
+  },
+  {
+    "type": "fileSave",
+    "timestamp": "2025-06-12T17:19:22.039Z",
+    "data": {
+      "id": "1749748762039",
+      "timestamp": "2025-06-12T17:19:22.039Z",
+      "type": "fileSave",
+      "filePath": "c:\\Users\\sendr\\Documents\\Dev\\Frontend Mentor\\url-shortening-api-master\\script.js",
+      "changedLines": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ]
+    }
+  },
+  {
+    "type": "session",
+    "timestamp": "2025-06-12T17:21:28.315Z",
+    "data": {
+      "id": "1749748888315",
+      "project": "url-shortening-api-master",
+      "start": "2025-06-12T17:21:28.315Z",
+      "end": "2025-06-12T17:25:06.553Z"
+    }
+  },
+  {
+    "type": "session",
+    "timestamp": "2025-06-12T17:25:06.553Z",
+    "data": {
+      "id": "1749748888315",
+      "project": "url-shortening-api-master",
+      "start": "2025-06-12T17:21:28.315Z",
+      "end": "2025-06-12T17:25:06.553Z"
+    }
+  },
+  {
+    "type": "session",
+    "timestamp": "2025-06-12T19:34:51.043Z",
+    "data": {
+      "id": "1749756891043",
+      "project": "url-shortening-api-master",
+      "start": "2025-06-12T19:34:51.043Z",
+      "end": "2025-06-12T19:34:51.043Z"
+    }
+  },
+  {
+    "type": "fileSave",
+    "timestamp": "2025-06-12T19:34:59.822Z",
+    "data": {
+      "id": "1749756899822",
+      "timestamp": "2025-06-12T19:34:59.822Z",
+      "type": "fileSave",
+      "filePath": "c:\\Users\\sendr\\Documents\\Dev\\Frontend Mentor\\url-shortening-api-master\\script.js",
+      "changedLines": [
+        5
+      ]
+    }
+  }
+]
